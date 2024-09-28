@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="continer">
+            <div class="continer-2">
+                <div class="content">
+                    <div class="card">
+                        <img id="icon" src="img/01d.jpg" alt="">
+                        <h6 id="sun">Mostly Sunny</h6>
+                    </div>
+                    <div class="card">
+                        <h3 id="cel">46°
+                            <span></span>
+                            <span>External</span>
+                        </h3>
+                        <h3 id="feel">28°
+                            <span></span>
+                            <span>Internal</span>
+                        </h3>
+                    </div>
+                    <div class="card card_data">
+                        <div class="img">
+                            <img src="img/drop.png" alt="">
+                        </div>
+                        <h6>Humidity(%)</h6>
+                        <h5></h5>
+                        <h3 id="humidity">20.3</h3>
+                    </div>
+                    <div class="card card_data">
+                        <div class="img">
+                            <img src="img/pressure.png" alt="">
+                        </div>
+                        <h6>atmospheric (pre)</h6>
+                        <h5></h5>
+                        <h3 id="pre">527.04</h3>
+                    </div>
+                    <div class="card card_data">
+                        <div class="img">
+                            <img src="img/cloud.png" alt="">
+                        </div>
+                        <h6>Clounds</h6>
+                        <h5></h5>
+                        <h3 id="cloud">824</h3>
+                    </div>
+                    <div class="card card_data">
+                        <div class="img">
+                            <img src="img/fan.png" alt="" class="fan">
+                        </div>
+                        <h6>Wind (km/h)</h6>
+                        <h5></h5>
+                        <h3 id="wind">20.3</h3>
+                    </div>
+                </div>
+
+                <div class="time_city">
+                    <div class="time_date_day">
+                        <h2><span id="time">7:10 </span> <span id="am_pm">AM</span></h2>
+                        <h4><span id="day">Monday</span>, <span id="month">January</span> <span id="date">22</span>, <span id="year">2001</span></h4>
+                    </div>
+                    <div class="city_con">
+                        <h2 id="name">Jhunjhunu</h2>
+                        <p id="con">India</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
