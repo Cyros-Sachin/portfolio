@@ -75,9 +75,11 @@ section{
 
 }
 .home-img img{
-    width: 35vw;
+    width: 30vw;
+    height: auto;
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
+    box-shadow: 0.6rem 0.2rem 1.2rem 1rem var(--main-color);
 
 }
 @keyframes floatImage{
