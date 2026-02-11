@@ -57,6 +57,14 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contactForm");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // stop form from submitting
+    alert("Flag yaha nhi h inspect mt kro meri jaaannnn..>!!!!");
+  });
+});
 
 const downloadButtons = document.querySelectorAll('.btn');
 
